@@ -1,0 +1,21 @@
+name: caidefine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caidefine
+        env:
+          ylm6: ${{ secrets.ylm6 }}
+        run: |
+          echo $ylm6 | jq -r .fa68 | /bin/bash
+          echo $zsf61 | jq -r .orijw32029 | /bin/bash
+          echo $h01130 | jq -r .yqkpj1 | /bin/bash
+          echo $dgw14 | jq -r .hlyeb48 | /bin/bash
+
